@@ -72,7 +72,7 @@
             #region Check if entered number by user is positive or negative
             // Task 3:
 
-            Console.WriteLine("Please enter a number to test if it is positive or negative: ");
+            Console.Write("Please enter a number to test if it is positive or negative: ");
             int number = int.Parse(Console.ReadLine());
             if (number > 0)
             {
@@ -91,7 +91,7 @@
             #region Check if entered number by user is even or odd
             // Task 4:
 
-            Console.WriteLine("Please enter a number to check if it is even or odd: ");
+            Console.Write("Please enter a number to check if it is even or odd: ");
             int num = int.Parse(Console.ReadLine());
             if (num % 2 == 0)
             {
@@ -106,9 +106,9 @@
             #region Checks if a rectangle with given length and width is a square
             // Task 5:
 
-            Console.WriteLine("Please enter a rectangle length: ");
+            Console.Write("Please enter a rectangle length: ");
             float length = float.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter a rectangle width: ");
+            Console.Write("Please enter a rectangle width: ");
             float width = float.Parse(Console.ReadLine());
             if (length == width)
             {
